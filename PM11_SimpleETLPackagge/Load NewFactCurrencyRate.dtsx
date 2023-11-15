@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESK"
   DTS:CreatorName="DESK\Stan"
-  DTS:DTSID="{CAB1BC67-2773-47E2-92F5-B769D4112BAC}"
+  DTS:DTSID="{AF9C8247-8B09-4DE7-8B0C-81574DACCD9E}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5035.3"
   DTS:LocaleID="1032"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Load NewFactCurrencyRate"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{612FF08A-7E1A-4DD4-BACF-30541CDB674B}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{E6426551-A7E1-461E-BBBD-50493A590FC5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -883,9 +883,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,14.4794117234827,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
@@ -912,7 +910,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-57.0600390625,17.5382352502134,114.120078125,16"
+              BoundingBox="-48.19138671875,19.7335477502134,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -936,7 +934,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-57.0600390625,15.2441176051654,114.120078125,16"
+              BoundingBox="-48.19138671875,17.4394301051654,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
